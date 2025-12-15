@@ -9,12 +9,10 @@
     tapping-term-ms = <150>;
 };
 
-
 &lt {
     flavor = "balanced";
     quick-tap-ms = <150>;
     tapping-term-ms = <150>;
-
 };
 
 &trackball {
@@ -110,10 +108,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp PAGE_UP     &kp UP_ARROW    &kp HOME         &trans                         &trans  &trans  &trans  &trans  &trans
-&kp LC(A)       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(E)  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp PAGE_DOWN   &trans          &kp END          &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans          &trans          &trans           &trans     &trans      &trans  &trans                          &trans
+&kp ESCAPE  &kp PAGE_UP     &kp UP_ARROW    &kp HOME         &trans                         &trans  &trans  &trans  &trans  &trans
+&kp LC(A)   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(E)  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp PAGE_DOWN   &trans          &kp END          &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans          &trans          &trans           &trans     &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
