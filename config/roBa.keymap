@@ -99,10 +99,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                             &trans  &trans  &trans                &trans              &trans
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &trans  &trans  &trans  &trans                &kp LC(UP_ARROW)    &trans
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL      &trans  &trans  &trans  &kp LG(LC(UP_ARROW))  &kp LC(DOWN_ARROW)  &kp LC(DOWN_ARROW)
-&trans                      &trans           &trans           &trans           &trans        &trans         &trans  &trans                                                    &trans
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                             &trans  &trans  &trans              &trans              &trans
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &trans  &trans  &trans  &trans              &kp LC(UP_ARROW)    &trans
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL      &trans  &trans  &trans  &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)
+&trans                      &trans           &trans           &trans           &trans        &trans         &trans  &trans                                                  &trans
             >;
         };
 
