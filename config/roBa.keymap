@@ -40,12 +40,19 @@
         };
     };
 
-      macros {
+    macros {
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
+        };
+
+        Pass: Pass {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N2 &kp N0 &kp N1 &kp N8 &kp N0 &kp N7 &kp N1 &kp N3 &kp LS(M) &kp A &kp C>;
+            label = "PASS";
         };
     };
 
@@ -153,7 +160,7 @@
 &trans  &trans                &trans                &trans                &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &kp LG(NUMBER_4)      &kp LS(LG(N5))        &trans                &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LS(LG(NUMBER_1))  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_3))  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                &trans                &trans                &trans  &M0         &trans  &trans                          &trans
+&trans  &trans                &trans                &trans                &trans  &Pass       &trans  &trans                          &trans
             >;
         };
     };
