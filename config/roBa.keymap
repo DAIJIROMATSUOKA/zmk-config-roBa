@@ -73,15 +73,15 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-
         };
+
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
-
     };
 
     keymap {
@@ -89,10 +89,10 @@
 
         default_layer {
             bindings = <
-&mt LCTRL Q           &kp W      &kp E        &kp R            &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &mt RCTRL P
-&mt LEFT_SHIFT A      &kp S      &kp D        &kp F            &kp G                 &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &mt RIGHT_SHIFT RS(COLON)
-&mt LEFT_ALT Z        &kp X      &kp C        &kp V            &kp B                 &lt 6 ENTER        &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_ALT LS(SLASH)
-&mt RIGHT_GUI ESCAPE  &lt 9 TAB  &lt 8 MINUS  &lt 2 BACKSPACE  &mt LEFT_SHIFT SPACE  &lt 5 DELETE       &lt 7 MINUS    &lt 3 ENTER                             &mt LEFT_GUI TAB
+&mt LCTRL Q           &kp W      &kp E        &kp R            &kp T                                                  &kp Y        &kp U  &lt 5 I    &kp O    &mt RCTRL P
+&mt LEFT_SHIFT A      &kp S      &kp D        &kp F            &kp G                 &mkp MCLK         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &mt RIGHT_SHIFT RS(COLON)
+&mt LEFT_ALT Z        &kp X      &kp C        &kp V            &kp B                 &lt 6 ENTER       &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_ALT LS(SLASH)
+&mt RIGHT_GUI ESCAPE  &lt 9 TAB  &lt 8 MINUS  &lt 2 BACKSPACE  &mt LEFT_SHIFT SPACE  &lt 5 DELETE      &lt 7 MINUS    &lt 3 ENTER                             &mt LEFT_GUI TAB
             >;
 
             sensor-bindings = <&scroll_up_down>;
