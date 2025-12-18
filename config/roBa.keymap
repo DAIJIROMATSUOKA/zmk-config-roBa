@@ -144,10 +144,10 @@
 
         SCROLL {
             bindings = <
-&mt LCTRL Q                &kp PAGE_UP      &kp UP_ARROW  &kp HOME   &mkp MB4                           &trans     &trans  &trans           &trans                 &trans
-&mt LSHFT LC(A)            &kp LEFT         &kp DOWN      &kp RIGHT  &kp LC(E)  &kp LG(N0)      &trans  &trans     &trans  &trans           &kp LG(RIGHT_BRACKET)  &trans
-&mt LEFT_ALT Z             &kp PAGE_DOWN    &trans        &kp END    &mkp MB5   &trans          &trans  &trans     &trans  &kp LC(LS(TAB))  &kp LG(LEFT_BRACKET)   &kp LC(TAB)
-&mt RIGHT_GUI LS(LC(F12))  &kp LS(LC(F11))  &trans        &trans     &trans     &trans          &trans  &kp LG(T)                                                  &trans
+&mt LCTRL Q                &kp PAGE_UP      &kp UP_ARROW  &kp HOME   &mkp MB4                                    &trans                 &trans       &trans     &trans     &trans
+&mt LSHFT LC(A)            &kp LEFT         &kp DOWN      &kp RIGHT  &kp LC(E)  &kp LG(N0)      &trans           &kp LG(RIGHT_BRACKET)  &trans       &trans     &trans     &trans
+&mt LEFT_ALT Z             &kp PAGE_DOWN    &trans        &kp END    &mkp MB5   &trans          &kp LS(LC(TAB))  &kp LG(LEFT_BRACKET)   &kp LC(TAB)  &mkp LCLK  &mkp MCLK  &mkp RCLK
+&mt RIGHT_GUI LS(LC(F12))  &kp LS(LC(F11))  &trans        &trans     &trans     &trans          &trans           &kp LG(T)                                                 &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
