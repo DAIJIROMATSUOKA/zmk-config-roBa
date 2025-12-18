@@ -75,11 +75,11 @@
             tapping-term-ms = <200>;
         };
 
-        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+        encoder_msc_down_up: encoder_msc_down_up {
             compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
             tap-ms = <20>;
         };
     };
@@ -95,7 +95,7 @@
 &mt RIGHT_GUI ESCAPE  &lt 9 TAB  &lt 8 MINUS  &lt 2 BACKSPACE  &mt LEFT_SHIFT SPACE  &lt 5 DELETE      &lt 7 MINUS    &lt 3 ENTER                             &mt LEFT_GUI TAB
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         FUNCTION {
