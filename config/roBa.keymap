@@ -48,6 +48,16 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
         };
+
+        esc {
+            bindings = <&gresc>;
+            key-positions = <0 1>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
