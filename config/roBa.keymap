@@ -102,10 +102,10 @@
 
         FUNCTION {
             bindings = <
-&trans        &trans          &kp UP_ARROW    &trans           &trans                                  &trans     &trans  &trans    &msc SCRL_UP    &trans
-&trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans           &trans         &trans  &trans     &trans  &trans    &msc SCRL_DOWN  &trans
-&trans        &kp LG(C)       &kp LG(X)       &kp LG(V)        &kp LG(LA(V))    &trans         &trans  &trans     &trans  &mkp MB1  &mkp MB3        &mkp MB2
-&lt 0 ESCAPE  &trans          &trans          &lt 2 BACKSPACE  &mt LSHFT SPACE  &lt 5 DEL      &trans  &kp ENTER                                    &trans
+&trans  &trans  &trans  &trans           &trans                                  &trans     &trans  &trans    &msc SCRL_UP    &trans
+&trans  &trans  &trans  &trans           &trans           &trans         &trans  &trans     &trans  &trans    &msc SCRL_DOWN  &trans
+&trans  &trans  &trans  &trans           &trans           &trans         &trans  &trans     &trans  &mkp MB1  &mkp MB3        &mkp MB2
+&trans  &trans  &trans  &lt 2 BACKSPACE  &mt LSHFT SPACE  &lt 5 DEL      &trans  &kp ENTER                                    &trans
             >;
         };
 
