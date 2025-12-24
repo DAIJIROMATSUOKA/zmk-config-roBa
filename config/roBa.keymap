@@ -100,12 +100,12 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        FUNCTION {
+        MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans           &trans                                  &trans     &trans  &trans    &msc SCRL_UP    &trans
-&trans  &trans  &trans  &trans           &trans           &trans         &trans  &trans     &trans  &trans    &msc SCRL_DOWN  &trans
-&trans  &trans  &trans  &trans           &trans           &trans         &trans  &trans     &trans  &mkp MB1  &mkp MB3        &mkp MB2
-&trans  &trans  &trans  &lt 2 BACKSPACE  &mt LSHFT SPACE  &lt 5 DEL      &trans  &kp ENTER                                    &trans
+&trans  &trans  &trans  &trans           &trans                                  &trans       &trans  &trans    &msc SCRL_UP    &trans
+&trans  &trans  &trans  &trans           &trans           &trans         &trans  &trans       &trans  &trans    &msc SCRL_DOWN  &trans
+&trans  &trans  &trans  &trans           &trans           &trans         &trans  &trans       &trans  &mkp MB1  &mkp MB3        &mkp MB2
+&trans  &trans  &trans  &lt 2 BACKSPACE  &mt LSHFT SPACE  &lt 5 DEL      &trans  &lt 3 ENTER                                    &trans
             >;
         };
 
@@ -129,12 +129,12 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        MOUSE {
+        LAYER_4 {
             bindings = <
-&trans        &trans  &trans  &trans           &trans                                       &trans     &trans  &trans          &msc SCRL_UP    &trans
-&trans        &trans  &trans  &trans           &trans                &trans         &trans  &trans     &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
-&trans        &trans  &trans  &trans           &trans                &trans         &trans  &trans     &to 0   &mkp MB1        &mkp MB3        &mkp MB2
-&lt 0 ESCAPE  &trans  &trans  &lt 2 BACKSPACE  &mt LEFT_SHIFT SPACE  &lt 5 DEL      &trans  &kp ENTER                                          &trans
+&trans        &trans  &trans  &trans           &trans                                       &trans       &trans  &trans          &msc SCRL_UP    &trans
+&trans        &trans  &trans  &trans           &trans                &trans         &trans  &trans       &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
+&trans        &trans  &trans  &trans           &trans                &trans         &trans  &trans       &to 0   &mkp MB1        &mkp MB3        &mkp MB2
+&lt 0 ESCAPE  &trans  &trans  &lt 2 BACKSPACE  &mt LEFT_SHIFT SPACE  &lt 5 DEL      &trans  &lt 5 ENTER                                          &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
