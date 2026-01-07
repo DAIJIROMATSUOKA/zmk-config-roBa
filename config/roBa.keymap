@@ -102,10 +102,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans           &trans                                  &trans       &trans  &trans    &msc SCRL_UP    &trans
-&trans  &trans  &trans  &trans           &trans           &trans         &trans  &trans       &trans  &trans    &msc SCRL_DOWN  &trans
-&trans  &trans  &trans  &trans           &trans           &trans         &trans  &trans       &trans  &mkp MB1  &mkp MB3        &mkp MB2
-&trans  &trans  &trans  &lt 2 BACKSPACE  &mt LSHFT SPACE  &lt 5 DEL      &trans  &lt 3 ENTER                                    &trans
+&trans  &trans  &trans  &trans           &trans                                  &trans          &trans    &msc SCRL_UP    &trans    &trans
+&trans  &trans  &trans  &trans           &trans           &trans         &trans  &msc SCRL_LEFT  &mkp MB1  &mkp MB3        &mkp MB2  &msc SCRL_RIGHT
+&trans  &trans  &trans  &trans           &trans           &trans         &trans  &trans          &trans    &msc SCRL_DOWN  &trans    &trans
+&trans  &trans  &trans  &lt 2 BACKSPACE  &mt LSHFT SPACE  &lt 5 DEL      &trans  &lt 3 ENTER                                         &trans
             >;
         };
 
